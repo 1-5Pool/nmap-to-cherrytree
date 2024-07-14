@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 import glob
+import sys
 
 def parse_nmap_xml(xml_file):
     tree = ET.parse(xml_file)
