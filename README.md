@@ -23,7 +23,9 @@ These are all standard Python libraries and should be available in most Python i
 ## Usage
 
 1. Clone the repository:
+git clone https://github.com/1-5Pool/nmap-to-cherrytree.git
 
+2. Run the below command :
 python3 nmap_to_cherrytree.py /path/to/your/fulltcp_nmap.xml
 
 The script will automatically look for a corresponding UDP scan file named `*top*100_udp_nmap.xml` in the same directory.
